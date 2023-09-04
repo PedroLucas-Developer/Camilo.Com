@@ -7,11 +7,11 @@ export default function Doubts() {
       <div className='flex relative justify-start w-11/12 flex-col max-w-screen-lg '>
         <h1 className='text-[30px] text-blue-700 font-bold' >Deixe Sua Duvida_</h1>
       </div>
-      <div className='flex w-full p-5 items-center justify-center w-full flex-row max-w-screen-lg max-[800px]:flex-col'>        
-        <div className='flex] w-2/4 max-[800px]:w-full'>
+      <div className='flex w-full p-5 mt-5 items-center justify-center w-full flex-row max-w-screen-lg max-[800px]:flex-col max-[800px]:p-5'>        
+        <div className='flex w-2/4 max-[800px]:w-full'>
           <AnimationDoubts />          
         </div>
-        <div className='flex justify-center w-2/4 p-5 max-[800px]:w-full max-[800px]:px-0'>
+        <div className='flex w-2/4 p-5 max-[800px]:w-full max-[800px]:px-0'>
           <FormDoubts />
         </div>
       </div>

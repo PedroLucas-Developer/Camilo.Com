@@ -58,7 +58,7 @@ export default function Projects() {
       <div className='flex relative justify-start w-11/12 flex-col max-w-screen-lg '>
         <h1 className='text-[30px] text-blue-700 font-bold' >Meus Projetos_</h1>
       </div>
-      <div className='flex relative w-full py-5 items-center justify-center flex-col max-w-screen-lg'>        
+      <div className='flex relative w-full pt-5 items-center justify-center flex-col max-w-screen-lg'>        
         <motion.div className='absolute w-7/12' animate={{ rotate: 360} } transition={{ ease: "linear", duration: 10, repeat: Infinity }}>
           <Image className='w-[45%] h-[45%]' priority={true} src={Caixa} alt=""/>
         </motion.div>
