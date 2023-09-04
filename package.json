@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "axios": "^1.5.0",
     "framer-motion": "^10.16.2",
     "next": "^13.4.19",

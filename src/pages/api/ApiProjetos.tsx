@@ -154,7 +154,7 @@ export default (req, res) => {
       {
         id: 16,
         ano: "2012 - 2012",
-        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
+        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOV CEDRO",
         descricao: "Preparar a disciplina Cálculo I do Curso de Licenciatura em Matemática do Campus Cedro.",
         situacao: "Concluído",
         natureza: "Outra",
@@ -164,7 +164,7 @@ export default (req, res) => {
       {
         id: 17,
         ano: "2012 - 2012",
-        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
+        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOV CEDRO",
         descricao: "Preparar os alunos para a Disciplina Fundamentos de Matemática III.",
         situacao: "Concluído",
         natureza: "Outra",
@@ -174,7 +174,7 @@ export default (req, res) => {
       {
         id: 18,
         ano: "2012 - 2012",
-        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
+        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOV CEDRO",
         descricao:"Preparar os alunos para a disciplina Cálculo I do Curso de Licenciatura em Matemática do Campus Cedro.",
         situacao: "Concluído",
         natureza: "Outra",
@@ -194,7 +194,7 @@ export default (req, res) => {
       {
         id: 20,
         ano: "2012 - 2012",
-        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
+        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOV CEDRO",
         descricao: "Preparar e treinar os alunos para a OBMEP 2012.",
         situacao: "Concluído",
         natureza: "Outra",
@@ -214,7 +214,7 @@ export default (req, res) => {
       {
         id: 22,
         ano: "2011 - 2012",
-        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
+        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOV CEDRO",
         descricao: "Preparação de Alunos para a OBMEP 2011 e da Disciplina Fundamentos da Matemática III.",
         situacao: "Concluído",
         natureza: "Outra",
@@ -234,7 +234,7 @@ export default (req, res) => {
       {
         id: 24,
         ano: "2011 - 2011",
-        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
+        titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOV CEDRO",
         descricao: "Preparar alunos para disputar a OBMEP 2011.",
         situacao: "Concluído",
         natureza: "Outra",
