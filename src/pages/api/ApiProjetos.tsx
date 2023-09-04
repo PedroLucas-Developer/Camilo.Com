@@ -1,6 +1,7 @@
 export default (req, res) => {
   const projetos =  [
       {
+        id: 1,
         ano: "2016 - 2017",
         titulo: "Estatística Experimental Aliada Aos Recursos Computacionais no Instituto Federal de Educação, Ciência e Tecnologia do Ceará Campus Crato",
         descricao: "Realizar e analisar a eficiência das pesquisas que utilizam da Estatística experimental, e como é trabalhada nas pesquisas do IFCE campus Crato. Como os animais de controle, sua quantidade, números de tratamentos e tempo de duração. Proporcionando a cada discente de Zootecnia condições para planejar, analisar e interpretar experimentos na sua área de formação. Desenvolvimento de um artigo científico com tema: ESTATÍSTICA EXPERIMENTAL APLICADA A ZOOTECNIA, apresentado na SEMIC 2017 - Semana de Iniciação Científica do Instituto Federal do Ceará - Campus Crato.",
@@ -10,6 +11,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Lorrane Raissa Geraldo de Lima - Integrante / Rawell Souza Costa - Integrante",
       },
       {
+        id: 2,
         ano: "2016 - 2017",
         titulo: "Desenvolvimento da Estatística Com Recursos Computacionais no Instituto Federal de Educação, Ciência e Tecnologia do Ceará-IFCE, Campus Crato",
         descricao: "Durante o período do qual se refere este projeto foram estudados: O funcionamento dos softwares R e Geogebra, desenvolvimento de um artigo científico com tema: A IMPORTÂNCIA DO SOFTWARE R COMO FERRAMENTA DE AUXÍLIO NA PESQUISA, apresentado na SEMIC 2017 - Semana de Iniciação Científica do Instituto Federal do Ceará - Campus Crato.",
@@ -19,6 +21,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Gabriel Alcântara Silva - Integrante / Paulo Anaximando Tavares - Integrante",
       },
       {
+        id: 3,
         ano: "2016 - 2016",
         titulo: "Bolsa Formação: Laboratório de Energias Renováveis",
         descricao: "Na busca por matrizes energéticas mais eficazes com o mínimo de agressão ao meio ambiente é o objetivo do profissional de Zootenia. Visando a produção de alimentos, à sustentabilidade ambiental, à melhor qualidade e à segurança dos zootecnistas têm como foco de estudo as energias solar (obtida através do sol), eólica (obtida através do vento), hídrica (obtida através da energia potencial de uma massa de água), de biomassa (obtida através de elementos de origem orgânica) geotérmica (obtida através do calor da Terra), das marés, dentre outras. Pautados em conceber, projetar e fabricar equipamentos utilizados em sistemas que usem fontes renováveis de energia, para produção de alimentos. Também desenvolvem instalações, sistemas e máquinas que utilizem essas fontes no setor agrícola, além de estabelecer maneiras mais eficientes. Os graduados na área ainda têm entre suas atividades a realização de auditorias energéticas e planos de gestão de energia em sistemas mecânicos alimentados por fontes renováveis; a planificação estratégica de sistemas de produção e de gestão de fontes de energia e a investigação e desenvolvimento de produtos, processos e métodos industriais para sistemas de energias renováveis. Coordenam ainda estratégias de implantação de usinas e traçam planos de consumo inteligente dos recursos energéticos.",
@@ -28,6 +31,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Juliano Macedo dos Santos - Integrante",
       },
       {
+        id: 4,
         ano: "2015 - 2015",
         titulo: "Bolsa Formação: Laboratório de Energias Renováveis",
         descricao: "Na busca por matrizes energéticas mais eficazes com o mínimo de agressão ao meio ambiente é o objetivo do profissional de Zootenia. Visando a produção de alimentos, à sustentabilidade ambiental, à melhor qualidade e à segurança dos zootecnistas têm como foco de estudo as energias solar (obtida através do sol), eólica (obtida através do vento), hídrica (obtida através da energia potencial de uma massa de água), de biomassa (obtida através de elementos de origem orgânica) geotérmica (obtida através do calor da Terra), das marés, dentre outras. Pautados em conceber, projetar e fabricar equipamentos utilizados em sistemas que usem fontes renováveis de energia, para produção de alimentos. Também desenvolvem instalações, sistemas e máquinas que utilizem essas fontes no setor agrícola, além de estabelecer maneiras mais eficientes. Os graduados na área ainda têm entre suas atividades a realização de auditorias energéticas e planos de gestão de energia em sistemas mecânicos alimentados por fontes renováveis; a planificação estratégica de sistemas de produção e de gestão de fontes de energia e a investigação e desenvolvimento de produtos, processos e métodos industriais para sistemas de energias renováveis. Coordenam ainda estratégias de implantação de usinas e traçam planos de consumo inteligente dos recursos energéticos.",
@@ -37,6 +41,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Bianca Ferreira Gonçalves - Integrante",
       },
       {
+        id: 5,
         ano: "2014 - 2015",
         titulo: "Tecnologias Utilizando a Matemática Simbólica Para Transformar a Educação",
         descricao: "Atualizar currículo na Plataforma Lattes. - Cadastro no Portal de periódicos da Capes. - Suporte a Bolsista de iniciação científica PIBIC. - Instalação do MATHCAD PRIME 3.0. - Leitura do livro Gamification ? Como criar experiências de aprendizagem engajadoras da autora Flora Alves. - Participação no curso de code.org online como introdução a programação com certificação. - Participação no III Fórum Mundial de Educação Tecnologia em Recife (FMEPT), com o fim de expor um pôster, intitulado: ?A importância da informática educativa com ênfase em ambientes de aprendizagem?. - Suporte na Maratona de Programação sediado no Instituto Federal de Educação, Ciência e Tecnologia do Ceará Campus Crato. - Participação na Semana Tecnológica no IFCE ? Instituto Federal de Educação, Ciência e Tecnologia do Ceará Campus Crato no curso de criando um gerenciador de tarefas com PHP e MYSQL. - Participação no IV Seminário de Iniciação Científica e Tecnológica 2015 ? UNIVERSO IFCE, onde foi exposto um trabalho com tema: ?Desenvolvimento de tecnologias utilizando matemática simbólica para transformar a educação?..",
@@ -46,6 +51,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Marcílio Salviano Gomes - Integrante",
       },
       {
+        id: 6,
         ano: "2014 - 2015",
         titulo: "Desenvolvimento de Tecnologias Utilizando a Matemática Simbólica Para Transformar a Educação de Graduados em Zootécnia",
         descricao: "Durante o período do qual se refere este projeto foram estudados: O funcionamento dos softwares Mathcad e Geogebra, desenvolvimento de um artigo científico com tema: Abordagem Didática na utilização da Matemática para a Resolução de Problemas Aplicados a Zootecnia utilizando o software Geogebra. pesquisa sobre aracnídeos e seu comportamento no habitat Estudos diretamente relacionados a robótica educacional, utilizando o arduino..",
@@ -55,6 +61,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Flaviana Gomes da Silva - Integrante",
       },
       {
+        id: 7,
         ano: "2014 - 2015",
         titulo: "Programa de Iniciação, Científica Junior",
         descricao: "Suporte a Bolsista de iniciação científica PIBIC. - Instalação do MATHCAD PRIME 3.0. - Leitura do livro Gamification ? Como criar experiências de aprendizagem engajadoras da autora Flora Alves. - Participação no curso de code.org online como introdução a programação com certificação. - Suporte na Maratona de Programação sediado no Instituto Federal de Educação, Ciência e Tecnologia do Ceará Campus Crato. Atualizar currículo na Plataforma Lattes..",
@@ -64,6 +71,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Gabriel Alcântara Silva - Integrante",
       },
       {
+        id: 8,
         ano: "2014 - Atual",
         titulo: "PROGRAMA INSTITUCIONAL DE BOLSA DE INICIAÇÃO À DOCÊNCIA - Subprojeto Campus Cedro",
         descricao: "Programa de formação docente que envolve pesquisa, ensino e extensão..",
@@ -73,6 +81,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Francisco José de Lima - Integrante",
       },
       {
+        id: 9,
         ano: "2013 - 2014",
         titulo: "PROGRAMA INSTITUCIONAL DE BOLSA DE INICIAÇÃO À DOCÊNCIA - Subprojeto Campus Cedro",
         descricao: "Programa de formação docente que envolve pesquisa, ensino e extensão..",
@@ -82,6 +91,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Maria Camila Ribeiro Sátiro - Integrante / Edvagner Batista Ferreira - Integrante",
       },
       {
+        id: 10,
         ano: "2012 - 2012",
         titulo: "Monitoria voluntária",
         descricao: "",
@@ -91,6 +101,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador",
       },
       {
+        id: 11,
         ano: '2011 - Atual',
         titulo: "PIBID",
         descricao: 'Auxiliar os bolsistas de iniciação a docência no desenvolvimento de aulas teórico-práticas sobre conteúdos de Matemática do Ensino Médio, em contra turno ao das aulas, vis,ando a mel-doria playback. Aula melhor planejada play back',
@@ -100,6 +111,7 @@ export default (req, res) => {
         integrantes: 'Francisco Camilo da Silva - Coordenador / José Nunes Aquino - Integrante.',
       },
       {
+        id: 12,
         ano: '2006 - 2008',
         titulo: "LEPEDUC Levantamento Estatístico para o Problema de Evasão Discente na Uned-Cedro",
         descricao: 'Descobrir nesta instituição de ensino como enfrentar a evasão, durante este tempo, um alto índice de evasão escolar por parte dos alunos nos diferentes cursos, diurno e noturno, ofertados (Ensino médio, Ensino Profissional e Licenciatura em Matemática)',
@@ -109,6 +121,7 @@ export default (req, res) => {
         integrantes: 'Francisco Camilo da Silva - Coordenador. Financiador(es): Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico - Auxílio financeiro. Número de produções C, T & A: 1',
       },
       {
+        id: 13,
         ano: '2019 - 2019',
         titulo: "PROGRAMAÇÃO MÓVEL E CÁLCULO PARA PRODUÇÃO HIDROPÔNICA",
         descricao: 'O desenvolvimento crescente de aplicativos de tecnologias traz a necessidade de realizar tarefas de maneira cada vez mais simples e dinâmica, ou seja, de modo que seja exigido o menor esforço possível por parte das pessoas. As aplicações do tipo mobile e web são exemplos dessa informatização, já que cada vez mais tarefas, desde o envio de mensagens até o pagamento de contas, podem ser realizadas de maneira online, utilizando apenas um computador ou um smartphone com acesso à Internet. O que antes não era muito aceito pela população por ser considerado perigoso, hoje em dia se tornou frequente na vida da maioria das pessoas, que utilizam essas aplicações para tarefas comuns do dia-a-dia, como, por exemplo, a compra de produtos. Tomando com base o documento da ONU que visa o desenvolvimento de novas tecnologias para que os países aumente sua produtividade para assim possa alimentar toda sua população. O propósito deste trabalho é a criação de um sistema de aplicação mobile para ajuste da condutividade eletrica (CE) na produção hidropônica, por meio da criação de um novo aplicativo, implementando as funcionalidades básicas para iníciar e fornecer suporte para continuação da produção.',
@@ -118,6 +131,7 @@ export default (req, res) => {
         integrantes: 'Francisco Camilo da Silva - Coordenador / Juliano dos Santos Macedo - Integrante / Cley Anderson Silva de Freitas - Integrante.',
       },
       {
+        id: 14,
         ano: '2015 - 2015',
         titulo: 'Robótica Educacional',
         descricao: 'Como a tecnologia evolui mais rapidamente em todos os aspectos da vida moderna, é importante que a próxima geração saber sobre o projeto, eletrônica, programação e integração, a fim de manter-se competitivo. É por isso que a robótica está se tornando cada vez mais importante em todos os níveis de ensino, pesquisas e debater avanços proporcionados pelo uso de tecnologias, visto que esta área de conhecimento que tem crescido com grande intensidade nos últimos anos. O uso de tecnologia desenvolvidas, conforme apontam diversos estudos científicos, tem gerado melhorias, redução de custos e atendimento à demanda atuais.',
@@ -127,6 +141,7 @@ export default (req, res) => {
         integrantes: 'Integrantes: Francisco Camilo da Silva - Coordenador / Gabriel Alcântara Silva - Integrante.',
       },
       {
+        id: 15,
         ano: "2005 - 2013",
         titulo: "Olimpíadas de Matemática no IFCE",
         descricao:"Treinar alunos para competições de Matemática com estudantes de Ensino Médio e Universitário de escolas públicas e privadas de todo o Brasil. O projeto visava melhorar o ensino de Matemática no país e descobrir talentos para as Ciências.",
@@ -137,6 +152,7 @@ export default (req, res) => {
         financiadores: "Instituto Nacional de Matemática Pura e Aplicada - Cooperação / Instituto Federal do Ceará - Bolsa",
       },
       {
+        id: 16,
         ano: "2012 - 2012",
         titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
         descricao: "Preparar a disciplina Cálculo I do Curso de Licenciatura em Matemática do Campus Cedro.",
@@ -146,6 +162,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Arislânia Estevam dos Santos - Integrante",
       },
       {
+        id: 17,
         ano: "2012 - 2012",
         titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
         descricao: "Preparar os alunos para a Disciplina Fundamentos de Matemática III.",
@@ -155,6 +172,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Marcilane Alves dos Santos - Integrante",
       },
       {
+        id: 18,
         ano: "2012 - 2012",
         titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
         descricao:"Preparar os alunos para a disciplina Cálculo I do Curso de Licenciatura em Matemática do Campus Cedro.",
@@ -164,6 +182,7 @@ export default (req, res) => {
         integrantes:  "Francisco Camilo da Silva - Coordenador / Francisca Simone Lima Batista - Integrante",
       },
       {
+        id: 19,
         ano: "2012 - 2012",
         titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOV CEDRO",
         descricao: "Preparar os alunos do Curso de Tecnologia em Mecatrônica Industrial para a disciplina de Cálculo I.",
@@ -173,6 +192,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Prozzynesk Carneiro Liberato - Integrante / Damião da Silva Oliveira - Integrante",
       },
       {
+        id: 20,
         ano: "2012 - 2012",
         titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
         descricao: "Preparar e treinar os alunos para a OBMEP 2012.",
@@ -182,6 +202,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Marcilane Alves dos Santos - Integrante / Rivânia Oliveira de Lima - Integrante",
       },
       {
+        id: 21,
         ano: "2011 - 2013",
         titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOV CEDRO",
         descricao: "Preparação de alunos para a OBMEP 2011 e da Disciplina Cálculo I.",
@@ -191,6 +212,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Edvagner Batista Ferreira - Integrante",
       },
       {
+        id: 22,
         ano: "2011 - 2012",
         titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
         descricao: "Preparação de Alunos para a OBMEP 2011 e da Disciplina Fundamentos da Matemática III.",
@@ -200,6 +222,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Jussara Correia Brito - Integrante",
       },
       {
+        id: 23,
         ano: "2011 - 2011",
         titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOV CEDRO",
         descricao: "Preparar os Alunos para a disciplina Cálculo II do Curso de Licenciatura em Matemática do Campus Cedro.",
@@ -209,6 +232,7 @@ export default (req, res) => {
         integrantes: "Francisco Camilo da Silva - Coordenador / Antônio Raimundo de Oliveira Costa - Integrante",
       },
       {
+        id: 24,
         ano: "2011 - 2011",
         titulo: "Programa de Monitoria Voluntária do Campus Cedro - PROMOVCEDRO",
         descricao: "Preparar alunos para disputar a OBMEP 2011.",
