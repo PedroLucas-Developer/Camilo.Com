@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import '../styles/global.css'
 import Projects from './Projects';
+import Doubts from './api/Duvidas';
 
 // Renderiza A landing Page
 const App = () => {
@@ -10,7 +11,8 @@ const App = () => {
         <title>Camilo.Com</title>
         {/* <link rel='shortcut icon' href='/imagens/logoBall.ico' /> */}
       </Head>
-
+      <Projects />
+      <Doubts />
     </div>
   );
 };
