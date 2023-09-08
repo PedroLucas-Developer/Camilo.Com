@@ -29,24 +29,19 @@ export default function Footer(){
             </div>
           </div>
           <div className="flex justify-center">
-            <ul className='grid grid-cols-5 gap-4 mr-4 max-[800px]:mr-0'>
+            <ul className='grid grid-cols-3 gap-4 mr-4 max-[800px]:mr-0'>
               <li className='h-[45px] w-[45px] flex items-center justify-center bg-[#0c2364] rounded-full max-[450px]:h-[40px] max-[450px]:w-[40px] hover:scale-110 duration-200'>
-                <a href="" target='_blank' rel="noopener noreferrer">
+                <a href="https://www.instagram.com/ifcecamilo/" target='_blank' rel="noopener noreferrer">
                   <AiFillInstagram className="h-[35px] w-[35px] text-white max-[450px]:h-[30px] max-[450px]:w-[30px]" />
                 </a>
               </li>
-              <li className='h-[45px] w-[45px] flex items-center justify-center bg-[#0c2364] rounded-full max-[450px]:h-[40px] max-[450px]:w-[40px] hover:scale-110 duration-200'>
-                <a href="" target='_blank' rel="noopener noreferrer">
-                  <AiFillLinkedin className="h-[35px] w-[35px] text-white max-[450px]:h-[30px] max-[450px]:w-[30px]"  />
-                </a>
-              </li>
               <li className='h-[45px] w-[45px] flex items-center justify-center bg-[#0c2364] rounded-full max-[450px]:h-[40px] max-[450px]:w-[40px] hover:scale-110	duration-200'>
-                <a href="https://www.youtube.com/@PedroDevelop" target='_blank' rel="noopener noreferrer">
+                <a href="https://www.facebook.com/dsccamilo" target='_blank' rel="noopener noreferrer">
                   <AiFillFacebook className="h-[35px] w-[35px] text-white max-[450px]:h-[30px] max-[450px]:w-[30px]" />
                 </a>
               </li>
               <li className='h-[45px] w-[45px] flex items-center justify-center bg-[#0c2364] rounded-full max-[450px]:h-[40px] max-[450px]:w-[40px] hover:scale-110	duration-200'>
-                <a href="https://twitter.com/PedroDevelop" target='_blank' rel="noopener noreferrer">
+                <a href="http://lattes.cnpq.br/9587183503067118" target='_blank' rel="noopener noreferrer">
                   <Image src={Lattes} alt="Logo Lattes" className="h-[35px] w-[35px] max-[450px]:h-[30px] max-[450px]:w-[30px]"  />
                 </a>
               </li>
