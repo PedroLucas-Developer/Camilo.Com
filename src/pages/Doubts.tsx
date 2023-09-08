@@ -3,11 +3,11 @@ import AnimationDoubts from "../components/animationDoubts";
 
 export default function Doubts() {
   return (
-    <div className='flex w-full pb-8 flex-col items-center justify-center'>
+    <div id="Doubts" className='flex w-full pb-8 flex-col items-center justify-center'>
       <div className='flex relative justify-start w-11/12 flex-col max-w-screen-lg '>
-        <h1 className='text-[30px] text-blue-700 font-bold' >Deixe Sua Duvida_</h1>
+        <p className='text-[30px] text-blue-700 font-bold' >Deixe Sua Duvida_</p>
       </div>
-      <div className='flex w-full p-5 mt-5 items-center justify-center w-full flex-row max-w-screen-lg max-[800px]:flex-col max-[800px]:p-5'>        
+      <div className='flex w-full p-5 mt-5 items-center justify-center flex-row max-w-screen-lg max-[800px]:flex-col'>        
         <div className='flex w-2/4 max-[800px]:w-full'>
           <AnimationDoubts />          
         </div>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
-import Caixa from '../../public/imagens/caixaEsqujsita.png';
+import Caixa from '../../public/imagens/geometricas/caixaEsqujsita.png';
 import ProjectModal from '../components/projectModal';
 import ProjectCard from '../components/projectCard';
 import { ButtonNext, ButtonPrevious } from '../components/projectButtons';
@@ -54,9 +54,9 @@ export default function Projects() {
   const projectsToDisplay = projetos.slice(startIndex, endIndex);
 
   return (
-    <div className='flex w-full py-8 flex-col items-center justify-center'>
+    <div id='Projects' className='flex w-full py-8 flex-col items-center justify-center'>
       <div className='flex relative justify-start w-11/12 flex-col max-w-screen-lg '>
-        <h1 className='text-[30px] text-blue-700 font-bold' >Meus Projetos_</h1>
+        <p className='text-[30px] text-blue-700 font-bold' >Meus Projetos_</p>
       </div>
       <div className='flex relative w-full pt-5 items-center justify-center flex-col max-w-screen-lg'>        
         <motion.div className='absolute w-7/12' animate={{ rotate: 360} } transition={{ ease: "linear", duration: 10, repeat: Infinity }}>

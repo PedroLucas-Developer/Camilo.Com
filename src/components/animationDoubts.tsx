@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import { motion } from "framer-motion";
 
-import AnguloReto from '../../public/imagens/anguloReto.png';
-import Cubo from '../../public/imagens/cube.png';
-import Octahedron from '../../public/imagens/octahedronTwo.png'
-import Pyramid from '../../public/imagens/pyramidTwo.png'
+import AnguloReto from '../../public/imagens/geometricas/anguloReto.png';
+import Cubo from '../../public/imagens/geometricas/cube.png';
+import Octahedron from '../../public/imagens/geometricas/octahedronTwo.png'
+import Pyramid from '../../public/imagens/geometricas/pyramidTwo.png'
 
 export default function AnimationDoubts(){
   return (
