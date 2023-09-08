@@ -8,7 +8,7 @@ import Pyramid from '../../public/imagens/geometricas/pyramidTwo.png'
 
 export default function AnimationDoubts(){
   return (
-    <div className='flex w-full h-[550px] rounded bg-green-700 border-amber-900 border-[10px] relative items-center justify-center max-[800px]:h-[320px]'>
+    <div className='flex w-full h-[550px] rounded bg-[#051130] border-amber-900 border-[15px] relative items-center justify-center max-[800px]:h-[320px]'>
       <motion.div className='absolute w-[50%] left-12 max-[800px]:w-[30%] max-[800px]:left-20 max-[500px]:w-[35%]' animate={{ rotate: [20, 50, 20]} } transition={{ ease: "easeInOut", duration: 12, repeat: Infinity }}>
         <Image className='w-full' priority={true} src={AnguloReto} alt="Angulo Reto"/>
       </motion.div>
