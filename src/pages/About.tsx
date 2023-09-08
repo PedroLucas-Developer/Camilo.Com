@@ -4,8 +4,8 @@ import Camilo from '../../public/imagens/camilo.jpg';
 
 export default function About() {
   return (
-   <div id='About' className='flex w-full my-20 flex-row items-center justify-center'>
-     <div className='flex w-11/12 pt-10 flex-row items-center justify-center bg-[#0c2364] p-5 max-w-screen-lg max-[800px]:w-full max-[800px]:flex-col' >
+    <div id='About' className='flex w-full mb-20 flex-row items-center justify-center bg-[#0c2364] max-[1000px]:mb-0'>
+      <div className='flex w-11/12 pt-10 flex-row items-center justify-center p-5 max-w-screen-lg max-[800px]:w-full max-[800px]:flex-col' >
         <div className='w-2/4 relative flex justify-center items-center max-[800px]:w-full'>
           <Image className='w-[400px] absolute mt-28 max-[1000px]:m-0 max-[800px]:relative' src={Camilo} alt='Imagem de Francisco Camilo' />
         </div>
@@ -28,6 +28,6 @@ export default function About() {
           </div>
         </div>
       </div>
-   </div>
+    </div>
   );
 }

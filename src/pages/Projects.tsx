@@ -54,11 +54,11 @@ export default function Projects() {
   const projectsToDisplay = projetos.slice(startIndex, endIndex);
 
   return (
-    <div id='Projects' className='flex w-full py-8 flex-col items-center justify-center'>
-      <div className='flex relative justify-start w-11/12 flex-col max-w-screen-lg '>
-        <p className='text-[30px] text-blue-700 font-bold' >Meus Projetos_</p>
+    <div id='Projects' className='flex w-full flex-col items-center justify-center'>
+      <div className='m-10 text-center max-[500px]:m-6'>
+        <h2 className='text-[35px] text-[#0c2364] font-bold max-[500px]:text-[26px] dark:text-white'>Projetos que Participei:</h2>
       </div>
-      <div className='flex relative w-full pt-5 items-center justify-center flex-col max-w-screen-lg'>        
+      <div className='flex relative w-full items-center justify-center flex-col max-w-screen-lg'>        
         <motion.div className='absolute w-7/12' animate={{ rotate: 360} } transition={{ ease: "linear", duration: 10, repeat: Infinity }}>
           <Image className='w-[45%] h-[45%]' priority={true} src={Caixa} alt=""/>
         </motion.div>
