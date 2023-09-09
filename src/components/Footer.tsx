@@ -11,6 +11,7 @@ export default function Footer(){
         <div className="flex justify-between items-center flex-row max-[800px]:flex-col">
           <div className='p-4 flex-col flex justify-center max-[800px]:text-center'>
             <p className='text-[19px] mb-2 text-white font-bold'>Francisco Camilo Da Silva</p>
+            {/* Menu de navegacao do projeto */}
             <div className="flex w-full max-[800px]:justify-center ">
               <ul className="flex w-[250px] flex-row justify-between">
                 <li className="text-[13px] text-white hover:font-bold duration-200">
@@ -28,6 +29,7 @@ export default function Footer(){
               </ul>
             </div>
           </div>
+          {/* Links Das Redes Sociais */}
           <div className="flex justify-center">
             <ul className='grid grid-cols-3 gap-4 mr-4 max-[800px]:mr-0'>
               <li className='h-[45px] w-[45px] flex items-center justify-center bg-[#0c2364] rounded-full max-[450px]:h-[40px] max-[450px]:w-[40px] hover:scale-110 duration-200'>

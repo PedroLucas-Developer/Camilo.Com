@@ -1,7 +1,9 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
+// Renderiza o Form de Duvidas
 export const FormDoubts = () => {
+ // Padrao do email js para envio via next.js
   const [Menssagem, setMenssagem] = useState("");
   const [MessageReturn, setMessageReturn] = useState("");
   const form = useRef();

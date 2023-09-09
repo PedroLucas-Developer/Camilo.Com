@@ -7,6 +7,7 @@ import ProjectModal from '../components/projectModal';
 import ProjectCard from '../components/projectCard';
 import { ButtonNext, ButtonPrevious } from '../components/projectButtons';
 
+// Renderiza a pagina de projetos.
 export default function Projects() {
   const [projetos, setProjetos] = useState([]);
   const [selectedProjeto, setSelectedProjeto] = useState(null);

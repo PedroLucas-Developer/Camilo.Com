@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
 import {RiMoonFill, RiSunLine} from 'react-icons/ri' 
-
 
 // O componente DarkModeSwitch cria o botao de darkmode e tambem ativa e desativa essa funcionalidade no site.
 const DarkModeSwitch = () => {
   const [darkMode, setDarkMode] = useState(false);
 
+  // Verifica em modo o site estava atraves da local store e ativa o dark mode.
   useEffect(() => {
     const isDarkMode = localStorage.getItem('darkMode');
     if (isDarkMode === 'true') {
@@ -15,6 +14,7 @@ const DarkModeSwitch = () => {
     }
   }, []);
 
+  // Ativa o DarkMode e salva essa info na local store.
   const handleDarkModeToggle = () => {
     const isDarkModeEnabled = !darkMode;
     setDarkMode(isDarkModeEnabled);

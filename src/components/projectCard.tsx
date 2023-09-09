@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 
+// Renderiza o Card de Projeto
 export default function ProjectCard({projeto, openModal}) {
   return (
     <motion.div onClick={() => openModal(projeto)} className="bg-[#f1f1f1] flex items-center w-full h-[300px] drop-shadow-xl shadow-lg rounded-lg cursor-pointer transition-transform transform hover:scale-105 duration-400 dark:bg-[#0c2364]">

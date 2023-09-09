@@ -6,6 +6,7 @@ import Cubo from '../../public/imagens/geometricas/cube.png';
 import Octahedron from '../../public/imagens/geometricas/octahedronTwo.png'
 import Pyramid from '../../public/imagens/geometricas/pyramidTwo.png'
 
+// Renderiza a animacao no quadrom na tela de duvidas.
 export default function AnimationDoubts(){
   return (
     <div className='flex w-full h-[550px] rounded bg-[#051130] border-amber-900 border-[15px] relative items-center justify-center max-[800px]:h-[320px]'>

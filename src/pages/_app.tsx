@@ -11,6 +11,7 @@ import '../styles/global.css'
 
 // Renderiza A landing Page
 const App = () => {
+
   return (
     <div className='m-0	p-0 min-h-screen inset-y-0 inset-x-0 outline-none box-border font-sans dark:bg-[#081e56]'>
       <Head>

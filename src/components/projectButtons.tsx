@@ -1,3 +1,4 @@
+// Renderiza o botao de Proximo.
 export function ButtonNext(PageChange){
   return (
     <button className="bg-[#0c2364] text-white m-4 border-white p-2 w-16 h-16 rounded-lg transform transition-transform" {...PageChange}>
@@ -6,6 +7,7 @@ export function ButtonNext(PageChange){
   );
 }
 
+// Renderiza o botao de Anterior.
 export function ButtonPrevious(PageChange){
   return (
     <button className="bg-[#0c2364] text-white m-4 border-white p-2 w-16 h-16 rounded-lg transform transition-transform" {...PageChange}>

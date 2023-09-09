@@ -1,6 +1,7 @@
 import { FormDoubts } from "../components/FormDoubts";
 import AnimationDoubts from "../components/animationDoubts";
 
+// Renderiza a pagina de duvidas.
 export default function Doubts() {
   return (
     <div id="Doubts" className='flex w-full pb-8 flex-col items-center justify-center'>
