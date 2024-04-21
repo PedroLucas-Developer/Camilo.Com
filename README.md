@@ -1,7 +1,4 @@
 # Camilo.Com
-![GitHub repo size](https://img.shields.io/github/repo-size/Null-Kc/Camilo.Com?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/Null-Kc/Camilo.Com?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Null-Kc/Camilo.Com?style=for-the-badge)
 
 Desenvolvi um site personalizado para o Professor Camilo, focado no ensino de matemática. Esta plataforma oferece recursos interativos e uma área dedicada para que os alunos possam deixar suas dúvidas diretamente com o professor. Com ferramentas de rastreamento de progresso e segurança de dados, garantimos a privacidade dos alunos e o sucesso no ensino. Estou empenhado em aprimorar continuamente essa plataforma, tornando-a uma ferramenta valiosa para o Professor Camilo aprimorar seu ensino de matemática de forma eficaz e colaborativa.
 
